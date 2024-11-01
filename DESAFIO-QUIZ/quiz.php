@@ -30,6 +30,17 @@
         <p>Pergunta 3: Quantos planetas existem no sistema solar?</p>
         <input type="text" name="resposta3" required><br>
 
+        <p>Pergunta 4: Quem descobriu o Brasil?</p>
+        <input type="text" name="resposta3" required><br>
+
+        <p>Pergunta 5: Qual o aumentativo de "DacuEba?</p>
+        <input type="text" name="resposta3" required><br>
+
+
+
+
+
+
         <button type="submit">Verificar Respostas</button>
     </form>
 </body>

@@ -12,6 +12,10 @@
         $resposta1 = strtolower($_POST['resposta1']);
         $resposta2 = strtolower($_POST['resposta2']);
         $resposta3 = strtolower($_POST['resposta3']);
+        $resposta4 = strtolower($_POST['resposta4']);
+        $resposta5 = strtolower($_POST['resposta5']);
+
+
 
         // Verifica as respostas
         $acertos = 0;
@@ -24,6 +28,16 @@
         if($resposta3 == "oito") {
             $acertos++;
         }
+        
+        if($resposta4 == "alvares cabral") {
+            $acertos++;
+        }
+        if($resposta5 == "DaCueBão") {
+            $acertos++;
+        }
+
+
+        
 
         // Exibe o resultado
         echo "<h2>Resultado do Quiz</h2>";
